@@ -16,7 +16,7 @@ CREATE TABLE `aspirantes` (
   `nombre` VARCHAR(45) NOT NULL,
   `apellido` VARCHAR(45) NOT NULL,
   `email` VARCHAR(100) UNIQUE NOT NULL,
-  `telefono` INT NOT NULL,
+  `telefono` VARCHAR(20) NOT NULL,
   `urlLinkedin` VARCHAR(255) NOT NULL,
   `fechaDeNacimiento` DATE,
   `sexo` ENUM('Masculino', 'Femenino', 'Otro') NOT NULL,
